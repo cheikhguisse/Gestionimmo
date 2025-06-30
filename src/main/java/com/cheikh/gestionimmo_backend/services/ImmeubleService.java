@@ -9,4 +9,9 @@ public interface ImmeubleService {
     List<Immeuble> getAllImmeubles();
 
     Immeuble saveImmeuble(Immeuble immeuble);
+    Immeuble getImmeubleById(Long id);
+
+    Immeuble updateImmeuble(Long id, Immeuble updated);
+    void deleteImmeuble(Long id);
+
 }

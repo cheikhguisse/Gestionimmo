@@ -10,4 +10,5 @@ public interface LocalRepository extends JpaRepository<Local, Long> {
 
     List<Local> findByDescription(String description);
     List<Local> findAllByOrderByDescriptionAsc();
+    List<Local> findByimmeuble(Long immeubleId);
 }

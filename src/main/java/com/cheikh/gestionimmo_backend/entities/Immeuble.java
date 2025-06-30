@@ -14,7 +14,7 @@ import java.util.List;
 public class Immeuble {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int idImmeuble;
+    private Long idImmeuble;
     private String nom;
     private String adresse;
 
